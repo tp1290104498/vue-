@@ -1,0 +1,48 @@
+body{
+    overflow: hidden;
+}
+.pageContainer{
+    width: 100%;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.li_active{
+    color: #5f82ff;
+}
+.pageSidebar{
+    width: 200px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    background: #31397f;
+    color: #fff;
+}
+.pageContent{
+    margin-left:200px;
+}
+.headPic{
+    margin: 10px
+}
+.headPic img{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pageSideUl{
+    padding: 0px;
+}
+.pageSideUl li{
+    padding:5px 10px;
+    margin: 5px 0px;
+    vertical-align: middle
+}
+.pageSideUl img{
+    height: 16px;
+    margin-right: 10px;
+}
+.el-date-picker{
+    z-index: 99999!important;
+}
